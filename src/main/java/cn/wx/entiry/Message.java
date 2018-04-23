@@ -82,14 +82,6 @@ public class Message implements Serializable{
 		String valueString="";
 		if(value!=null&&value.length!=0)
 			valueString=new String(value);
-		switch (type) {
-		case this.LOGIN:
-			
-			break;
-
-		default:
-			break;
-		}
 		
 		return "Message [time=" + time + ", loction=" + loction + ", type=" + type + ", value=" + valueString
 				+ "]";
